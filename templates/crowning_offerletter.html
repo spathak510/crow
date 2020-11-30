@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        h2,h1,h3,h4,h5,h6,p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">CROWNING Staffing Private Limited</h2>
+        <h4 class="text-center">Corporate Office: Unit No. 30, Sixth Floor, Emerald Plaza, Sector- 65, Gurgaon, HR 122018</h4>
+        <h4 class="text-center">Email Id: info@crowningconsulting.com</h4>
+        <h4 class="text-center">Ph Contact: 01244082720</h4>
+        <br><br>
+        <h6 class="text-center"><strong>Offer Letter</strong></h6>
+        <p>{{Offer_Letter_Issue_Date}}</p>
+        <br>
+        <p>Dear {{Candidate_name}},</p>
+        <strong><p>Congratulations!!</p></strong>
+        <br>
+        <p>
+            With reference to your interview and subsequent discussion, we held with you, we are pleased to offer you <strong>{{Candidate_designation}}</strong> position at <strong>Crowning Staffing Private Limited</strong>. This position will be based out of our <strong>client {{Client_name}}</strong> and its subsidiaries or associated companies in <strong>{{Client_location}}</strong> location.
+        </p>
+        <br>
+        <p>
+            You are requested to report on or before <strong>{{Candidate_Joining_Date}}</strong>. You shall be governed by the terms and conditions of this Letter of Intent contained hereinafter. You shall be governed by the terms and conditions of this Letter of Intent contained hereinafter and your employment will be based as per our agreement with client.
+        </p>
+        <br>
+        <p>
+            You are being offered the position of <strong>{{Candidate_designation}}}</strong>.
+        </p>
+        <br>
+        <p>
+            You shall be based out of our <strong>{{Client_location}}</strong> but will serve the company or any of its subsidiaries or associated companies in any location within or outside of India. Your date of commencement of the employment will be on or before <strong>{{Candidate_Joining_Date}}</strong>.
+        </p>
+        <br>
+        <p>
+            As an employee of the company, you will receive an annual CTC ({{Cost_to_Company}}) of <strong>Rs. {{Salary_offered}}</strong>. This will be payable to you in accordance with the prevailing standard compensation plan of the company.
+        </p>
+        <br>
+        <p>
+            You will be on a probation period for a period of <strong>{{probation_duration}}</strong> from the date of joining and the company holds all the rights to terminate your employment during probation period or after completing the relevant probation period.
+        </p>
+        <br>
+        <p>
+            The offer is subject to the following conditions;
+        </p>
+        <ul>
+            <li>
+                Accuracy of the testimonials and information provided by you and your being free from any contractual restrictions preventing you from accepting this offer or starting work on the above- mentioned date.
+            </li>
+            <li>
+                Successful background and reference check if any of the above conditions are not met, this LOI/ Employment agreement would be liable to be terminated.
+            </li>
+        </ul>
+        <br>
+        <p><strong>Wishing you all the best</strong></p>
+        <br>
+        <p>
+            For Crowning Staffing Private Limited</p>
+    </div>
+
+
+
+
+
+
+    <!-- page 2 -->
+    <div class="container pb-5 mb-5">
+        <br><br>
+
+        <h6 class="text-center"><strong>Schedule 1 - Compensation</strong></h6>
+        <div class="col-12 col-sm-11 col-md-8 mx-auto">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th rowspan="2" >Components</th>
+                        <th colspan="2">Amount</th>
+                    </tr>
+                    <tr>
+                        <th>Monthly</th>
+                        <th>Annually</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic Salary</td>
+                        <td>{{Basic_salary_monthly}}</td>
+                        <td>{{Basic_salary_annually}}</td>
+                    </tr>
+                    <tr>
+                        <td>House Rent Allowance</td>
+                        <td>{{house_rent_allowance_monthly}}</td>
+                        <td>{{house_rent_allowance_annually}}</td>
+                    </tr>
+                    <tr>
+                        <td>Transport Allowance</td>
+                        <td>{{transport_monthly}}</td>
+                        <td>{{transport_annually}}</td>
+                    </tr>
+                    <tr>
+                        <td>Other Allowance</td>
+                        <td>{{other_allowance_monthly}}</td>
+                        <td>{{other_allowance_annually}}</td>
+                    </tr>
+                    <tr>
+                        <td>Provident Fund (Employer Contribution)</td>
+                        <td>{{pf_employer_monthly}}</td>
+                        <td>{{pf_employer_annualy}}</td>
+                    </tr>
+                    <tr>
+                        <td>ESIC </td>
+                        <td>{{ESIC_monthly}}</td>
+                        <td>{{ESIC_annually}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total CTC</strong> </td>
+                        <td>{{Tottal_ctc_monthly}}</td>
+                        <td>{{Tottal_ctc_annually}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div class="col-12 col-sm-11 col-md-10 mx-auto row">
+            <div class="col-1 text-right">(a)</div>
+            <div class="col-11 text-left">
+                <p>
+                    All Amount represented in Indian Rupees. Taxes as applicable would be borne by the employee.
+                </p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-11 col-md-10 mx-auto row">
+            <div class="col-1 text-right">(b)</div>
+            <div class="col-11 text-left">
+                <p>
+                    Your salary is strictly confidential and you should not disclose it to anyone without prior permission of the Company in writing. All entitlements would be in accordance with the Company policies that may change from time to time.
+                </p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-11 col-md-10 mx-auto row">
+            <div class="col-1 text-right">(c)</div>
+            <div class="col-11 text-left">
+                <p>
+                    You shall also be a part of Company's Incentive Scheme subject to the terms & conditions of the scheme and any amendments as may be made from time to time.
+                </p>
+            </div>
+        </div>
+        <br>
+        <p class="pl-4">
+            For Crowning Staffing Private Limited 
+        </p>
+        <div class="row col-12 mx-auto">
+            <div class="col-6 text-left">
+                <p>{Manager Name} </p>
+                <p>Senior Human Resource Manager </p>
+            </div>
+            <div class="col-6 text-right">
+                <p>{{Candidate_name}} </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- page 3 -->
+    <div class="container">
+        <br><br>
+        <h6 class="text-center">
+            <strong>Schedule 2 - List of documents required at the time of Joining</strong>
+        </h6>
+        <ol>
+            <li>
+                recent passport size photographs
+            </li><br>
+            <li>
+                Copy of your PAN card
+            </li><br>
+            <li>
+                Copy of your Aadhaar card
+            </li><br>
+            <li>
+                Permanent & Present Address Proof
+            </li><br>
+            <li>
+                Copies of Academic and Professional Qualification Certificates
+            </li><br>
+            <li>
+                Relieving letter & Appointment letter from your previous organization.
+            </li><br>
+            <li>
+                Proof of compensation last drawn (3 months – Original).
+            </li><br>
+            <li>
+                UAN and last PF account details - if you were a member of EPFO and had UAN created in any of your previous organization (s), then, please note that these are mandatory details that you need to share with us. Not sharing these details (if available) would lead to delay in statutory contributions to your PF
+            </li>
+        </ol>
+        <br>
+        <br>
+        <p class="pl-5">
+            <strong>Note:</strong> Please carry all the original documents for verification.
+        </p>
+    </div>
+
+
+    <!-- page 4 -->
+    <div class="container">
+        <br><br>
+        <h6 class="text-center"><u><strong>DECLARATION</strong></u></h6>
+        <br><br>
+        <p class="justify-content-center">
+            I hereby represent and warrant that as of my effective start date of employment with <strong>CROWING STAFFING PRIVATE LIMITED</strong>, I will have: (a) terminated my employment with any current/previous employer and any other employment or contractor relationships; and (b) satisfactorily performed and completed all my obligations which apply/applied to me vis-a-vis any current/previous employer and any other employment or contractor relationships.
+        </p>
+        <br>
+        <br>
+        <p>
+            I further represent and warrant that I have not and will not inappropriately disclose or misuse any confidential information obtained from and/or in connection with any current/previous employer and any other employment or contractor relationships. I agree and acknowledge that a breach of this provision shall entitle <strong>CROWING STAFFING PRIVATE LIMITED</strong> to terminate my services with immediate effect.
+        </p>
+        <br>
+        <br>
+        <br>
+        <p>Acknowledged and Agreed</p>
+        <br>
+        <p>_______________________</p>
+        <p>Signature :</p>
+        <p>Full Name :</p>
+        <p>Date :</p>
+    </div>
+</body>
+</html>
